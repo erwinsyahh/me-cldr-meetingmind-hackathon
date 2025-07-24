@@ -63,3 +63,11 @@ if start_button:
 
     # --- Output ---
     st.success("✅ Crew execution completed!")
+
+
+if __name__ == "__main__":
+
+    import subprocess
+
+    # Run the Streamlit app
+    subprocess.run(["streamlit", "run", "app.py"], check=True)
